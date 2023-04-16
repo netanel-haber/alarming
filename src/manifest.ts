@@ -14,7 +14,7 @@ const manifest: Manifest.WebExtensionManifest = {
     type: "module",
   },
   action: {
-    default_popup: "src/pages/popup/index.html",
+    default_title: "My extension",
     default_icon: "icon-34.png",
   },
   icons: {
@@ -32,6 +32,9 @@ const manifest: Manifest.WebExtensionManifest = {
       resources: ["contentStyle.css", "icon-128.png", "icon-34.png"],
       matches: [],
     },
+  ],
+  permissions: [
+    "chrome.runtime",
   ],
 };
 

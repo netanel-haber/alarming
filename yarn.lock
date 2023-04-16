@@ -850,6 +850,11 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+dom-element-watcher@^1.0.28:
+  version "1.0.28"
+  resolved "https://registry.yarnpkg.com/dom-element-watcher/-/dom-element-watcher-1.0.28.tgz#a6f0e3ee044e8d651c432e3e686d5a646ab5746d"
+  integrity sha512-DxWIlHigqmlB3osWIgHcO+ewhlW6ILN6fRTyu5LK0i24W0dQ2Ak5e+/DU7Jy7ia1FT5HRx5KiBnBsAgVwc3gaA==
+
 electron-to-chromium@^1.4.251:
   version "1.4.284"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"
